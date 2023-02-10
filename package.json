@@ -8,13 +8,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-<<<<<<< Updated upstream
-    "start": "next start"
-=======
     "start": "next start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
->>>>>>> Stashed changes
   },
   "dependencies": {
     "next": "^13.1.0",
