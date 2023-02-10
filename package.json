@@ -1,4 +1,5 @@
 {
+  "homepage": "https://kantaaa.github.io/portfolio-kanta-1/",
   "name": "portfolio-kanta-1",
   "private": true,
   "license": "MIT",
@@ -7,7 +8,13 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+<<<<<<< Updated upstream
     "start": "next start"
+=======
+    "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+>>>>>>> Stashed changes
   },
   "dependencies": {
     "next": "^13.1.0",
@@ -24,6 +31,7 @@
     "@types/react": "^18.0.26",
     "autoprefixer": "^10.4.13",
     "concurrently": "^7.6.0",
+    "gh-pages": "^5.0.0",
     "postcss": "^8.4.20",
     "tailwindcss": "^3.2.4",
     "typescript": "^4.9.4"
